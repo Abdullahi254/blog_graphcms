@@ -47,6 +47,6 @@ This will build the app and generate a out directory with the static files. You 
 
 ### License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/Abdullahi254/graphcms_blog/blob/main/LICENSE.md) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Abdullahi254/blog_graphcms/blob/main/LICENSE) file for details.
 
 
