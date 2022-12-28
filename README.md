@@ -17,15 +17,23 @@ This project is a blog created with the following technologies:
 ### Getting started
 
 1 Clone the repository:
+
 ```git clone https://github.com/Abdullahi254/graphcms_blog.git```
+
 2 Navigate to the project directory:
+
 ``` cd graphcms_blog```
+
 3 Install the dependencies:
+
 ```npm install```
+
 4 Set up the environment variables:
+
 Create a .env file in the root and update the values with your own.
 
 5 Run the development server:
+
 ```npm run dev```
 The app will be available at http://localhost:3000.
 
