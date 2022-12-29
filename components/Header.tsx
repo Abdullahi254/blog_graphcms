@@ -15,8 +15,8 @@ const Header = ({categories}: Props) => {
 
             <div>
                 <Link href="/">
-                    <span className=' cursor-pointer font-bold text-4xl text-white'>
-                        The Blog
+                    <span className=' cursor-pointer font-bold text-4xl text-white uppercase'>
+                        TechKE
                     </span>
                 </Link>
             </div>
