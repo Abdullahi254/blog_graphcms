@@ -19,7 +19,7 @@ const Post: NextPage<{
     return (
       <div className="container mx-auto px-10 mb-8">
         <Head>
-          <title>{post.node.excerpt}</title>
+          <title>{post.node.title}</title>
           <meta name="description" content={post.node.excerpt.toString()} />
           <link rel="icon" href="/favicon.ico" />
         </Head>
