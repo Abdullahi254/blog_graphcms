@@ -49,7 +49,7 @@ const PostDetails = ({ post }: Props) => {
 
             
                 {post.node.content.text.split("\\n").map((p,index)=>
-                    <p key={index} className="mb-2 tracking-wide text-center px-4 md:px-6 lg:px-0 md:text-left">
+                    <p key={index} className="mb-2 tracking-wide px-4 md:px-6 lg:px-0 md:text-left">
                         {p}
                     </p>
                 )}
