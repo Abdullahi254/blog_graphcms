@@ -19,7 +19,7 @@ const Home: NextPage<{
   }
 ) => {
     return (
-      <div className="container mx-auto px-10 mb-8">
+      <div className="container mx-auto px-2 md:px-10 mb-8">
         <Head>
           <title>Blog It</title>
           <meta name="description" content="My Nextjs Typescript Blog" />

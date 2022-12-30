@@ -17,7 +17,7 @@ const Post: NextPage<{
   post,
 }) => {
     return (
-      <div className="container mx-auto px-10 mb-8">
+      <div className="container mx-auto lg:px-10 mb-8">
         <Head>
           <title>{post.node.title}</title>
           <meta name="description" content={post.node.excerpt.toString()} />
