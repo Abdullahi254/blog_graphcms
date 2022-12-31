@@ -26,7 +26,7 @@ const Category: NextPage<{
                 </Head>
                 <Header categories={categories} />
                 <div className='max-w-5xl mx-auto bg-white p-6 mt-[50px] rounded-lg shadow-md'>
-                    <h3 className=' text-lg font-semibold text-center mb-6'>Local Gossips</h3>
+                    <h3 className=' text-lg font-semibold text-center mb-6'>{slug}</h3>
                     {
                         posts.map((post, index) =>
                             <div key={index} className="border-b-2 mb-2 p-4 text-center">
