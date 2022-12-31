@@ -23,7 +23,7 @@ const PostCard = ({ post }: Props) => {
       </div>
 
       <h1 className='uppercase font-semibold transition-colors duration-100 hover:text-red-500 text-center text-xl mb-6'>
-        <Link href={`/post/${post.node.slug}`}>
+        <Link href={`/posts/${post.node.slug}`}>
           {post.node.title}
         </Link>
       </h1>
