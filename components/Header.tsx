@@ -22,6 +22,7 @@ const Header = ({ categories }: Props) => {
                         alt="logo"
                         height={500}
                         width={500}
+                        priority
                         className="w-[80px] h-[80px] rounded-full"
                     />
                 </Link>

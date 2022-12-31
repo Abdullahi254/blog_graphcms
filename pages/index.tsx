@@ -21,7 +21,7 @@ const Home: NextPage<{
     return (
       <div className="container mx-auto px-2 md:px-10 mb-8">
         <Head>
-          <title>Blog It</title>
+          <title>TECHKE</title>
           <meta name="description" content="My Nextjs Typescript Blog" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
